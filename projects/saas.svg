@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <defs>
+    <linearGradient id="grad1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6c63ff" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="30" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#071026" />
+
+  <!-- background accent circle -->
+  <circle cx="920" cy="180" r="160" fill="url(#grad1)" opacity="0.12" filter="url(#softShadow)" />
+
+  <!-- monitor / dashboard -->
+  <g transform="translate(120,120)">
+    <rect x="60" y="60" width="760" height="440" rx="14" fill="#0f1724" stroke="rgba(255,255,255,0.03)" />
+    <rect x="94" y="104" width="690" height="340" rx="8" fill="#07132a" />
+
+    <!-- dashboard widgets -->
+    <rect x="120" y="140" width="180" height="100" rx="8" fill="url(#grad1)" opacity="0.14" />
+    <rect x="320" y="140" width="220" height="100" rx="8" fill="#0f1724" stroke="rgba(255,255,255,0.02)" />
+    <rect x="560" y="140" width="160" height="100" rx="8" fill="#0f1724" stroke="rgba(255,255,255,0.02)" />
+
+    <rect x="120" y="260" width="600" height="120" rx="8" fill="#0b1420" stroke="rgba(255,255,255,0.02)" />
+
+    <!-- small charts lines -->
+    <g fill="none" stroke="#9fb4cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(140,280)">
+      <path d="M0 40 C40 0, 120 80, 200 40 S360 0, 440 40" opacity="0.95"/>
+    </g>
+
+    <!-- monitor stand -->
+    <rect x="420" y="520" width="160" height="14" rx="6" fill="#0f1724" />
+    <rect x="520" y="540" width="60" height="10" rx="5" fill="#0f1724" />
+  </g>
+
+  <!-- gears on right to imply software -->
+  <g transform="translate(820,360)">
+    <g transform="translate(0,0)">
+      <circle cx="0" cy="0" r="46" fill="#061124" stroke="url(#grad1)" stroke-width="3" />
+      <path d="M-28 -4 L-36 -12 L-42 -6 L-36 4 Z" fill="#6c63ff" opacity="0.9" transform="rotate(30)" />
+    </g>
+    <g transform="translate(96,40)">
+      <circle cx="0" cy="0" r="30" fill="#061124" stroke="#06b6d4" stroke-width="2" />
+    </g>
+  </g>
+
+  <!-- text -->
+  <g transform="translate(120,560)">
+    <text x="0" y="0" fill="#e6eefc" font-family="Segoe UI, Roboto, sans-serif" font-size="36" font-weight="700">Software Development</text>
+    <text x="0" y="36" fill="#9fb4cf" font-family="Segoe UI, Roboto, sans-serif" font-size="18">Custom software & digital solutions tailored to your business needs</text>
+  </g>
+</svg>
