@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Zohaib | Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- <img src="logo.png" alt="site logo" class="site-logo" /> -->
+                <span>&lt;</span>Muhammad Zohaib<span>/&gt;</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HOME / HERO ===== -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting"> Hello, I'm</p>
+                <h1>Muhammad Zohaib</h1>
+                <h2><span class="typed-text"></span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    I'm a Full-Stack Developer and a top-rated Upwork bidder. I build
+                    responsive, user-friendly web applications using modern tools and best practices.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/muhammad-zohaib-51a23a331/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/muhammadzohaib2517?igsi=MTFreWp0cXllNmNjbA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1CqvNo1hMM/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-wrapper">
+                    <img src="zohaib photo.jpeg" alt="Profile photo" class="profile-photo" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+                        I'm a Full-Stack Developer with experience building end-to-end
+                        web applications. I work across the frontend and backend to deliver
+                        polished, performant products.
+                    </p>
+                    <p>
+                        I'm also a top-rated Upwork bidder with a track record of delivering
+                        client projects on time and to spec.
+                    </p>
+                    <div class="about-details">
+                        <div><strong> Location:</strong> House no 100/12 near 7 up factory MDA Chowk Multan Pakistan</div>
+                        <div><strong> Email:</strong> muhammad.ch.zohaib@gmail.com</div>
+                        <div><strong> Education:</strong> B.Sc. Computer Science</div>
+                        <div><strong> Experience:</strong> Full-Stack Developer · Top-rated Upwork bidder</div>
+                    </div>
+                    <a href="https://docs.google.com/document/d/1Qrq2oEhPtj1LroZnoeLIx15Jor020lJG/edit?usp=drive_link&ouid=116866215933933696083&rtpof=true&sd=true" class="btn btn-primary" target="_blank" rel="noopener">Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <!-- Projects slider (small template) -->
+            <div class="projects-slider" id="projectsSlider">
+                <div class="slides"></div>
+                <button class="slider-prev" aria-label="Previous">‹</button>
+                <button class="slider-next" aria-label="Next">›</button>
+                <div class="slider-dots" aria-hidden="false"></div>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be inserted by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <div class="skill-items">
+                        <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        <span>React</span><span>Bootstrap</span><span>Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-items">
+                        <span>Git</span><span>GitHub</span><span>Figma</span>
+                        <span>VS Code</span><span>Chrome DevTools</span><span>NPM</span>
+                    </div>
+                </div>
+                <div class="skill-row">
+                    <div class="skill-category">
+                        <h3>E-commerce</h3>
+                        <div class="skill-items">
+                            <span>E-commerce</span><span>Shopify</span><span>WooCommerce</span>
+                            <span>Payment Integration</span><span>Stripe/PayPal</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="skill-category">
+                        <h3>Freelance / Upwork</h3>
+                        <div class="skill-items">
+                            <span>Upwork</span><span>Proposal Writing</span><span>Client Communication</span>
+                            <span>Project Management</span><span>Top-rated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <!-- ===== NEW SERVICES / SOLUTIONS ===== -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title">Let's Turn Your Ideas Into Digital Solutions</h2>
+            <p class="services-description">Whether you need professional eBay account handling, Upwork profile management, a modern website, or a custom software solution, I am here to help. I transform your ideas into powerful digital solutions that support your business and help you grow online.</p>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <i class="fab fa-ebay service-icon" aria-hidden="true"></i>
+                    <h3>eBay Account Handling</h3>
+                    <p>Professional assistance with eBay account management and handling.</p>
+                </article>
+
+                <article class="service-card">
+                    <i class="fab fa-upwork service-icon" aria-hidden="true"></i>
+                    <h3>Upwork Profile Handling</h3>
+                    <p>Profile optimization, proposal strategy, and professional Upwork profile management.</p>
+                </article>
+
+                <article class="service-card">
+                    <i class="fas fa-laptop-code service-icon" aria-hidden="true"></i>
+                    <h3>Website Development</h3>
+                    <p>Modern, responsive, fast, and professional websites according to your business requirements.</p>
+                </article>
+
+                <article class="service-card">
+                    <i class="fas fa-cogs service-icon" aria-hidden="true"></i>
+                    <h3>Custom Software Development</h3>
+                    <p>Custom software and digital solutions designed according to your ideas and business needs.</p>
+                </article>
+            </div>
+
+            <div class="services-cta">
+                <p class="cta-text">Have an idea? Let's make it digital.</p>
+                <a href="https://wa.me/923256480361?text=Hello%20Muhammad%20Zohaib%2C%20I%20have%20an%20idea%20I%27d%20like%20to%20discuss." class="btn btn-primary" target="_blank" rel="noopener">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <input type="text" placeholder="Subject" />
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send via WhatsApp</button>
+                    <p class="form-note">When you send, WhatsApp will open so you can message me directly.</p>
+                </form>
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to new opportunities, collaborations, or just a chat!</p>
+                    <div class="contact-details">
+                        <div><i class="fas fa-envelope"></i> muhammad.ch.zohaib@gmail.com</div>
+                        <div><i class="fas fa-phone"></i> +923256480361</div>
+                        <div><i class="fas fa-map-marker-alt"></i> House no 100/12 near 7 up factory MDA Chowk Multan Pakistan</div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-zohaib-51a23a331/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/muhammadzohaib2517?igsi=MTFreWp0cXllNmNjbA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Muhammad Zohaib.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
