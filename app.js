@@ -147,7 +147,8 @@ if (sliderContainer) {
         if (project.image && project.image !== '#') {
             const img = document.createElement('img');
             let src = project.image.replace(/\\/g, '/');
-            if (!src.startsWith('./')) src = './' + src; // normalize backslashes and ensure relative path
+            // Ensure proper path for GitHub Pages - use root-relative path
+            if (!src.startsWith('/')) src = '/' + src;
             img.src = src;
             img.alt = project.title;
             img.loading = 'lazy';
