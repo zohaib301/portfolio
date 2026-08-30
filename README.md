@@ -36,7 +36,6 @@ portfolio/
 │   ├── portfolio.svg
 │   ├── quiz.svg
 │   ├── landing.svg
-│   └── saas.svg
 ├── zohaib photo.jpeg   # Profile picture
 ├── CNAME               # Custom domain configuration
 └── README.md           # This file

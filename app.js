@@ -95,14 +95,6 @@ const projects = [
         code: '#',
         image: 'projects/landing.svg'
     }
-    ,{
-        title: 'SaaS Platform',
-        description: 'Custom software-as-a-service solutions: multi-tenant apps, dashboards and APIs.',
-        tags: ['Node.js', 'Express', 'MongoDB'],
-        demo: '#',
-        code: '#',
-        image: 'projects/saas.svg'
-    }
 ];
 
 // ===== RENDER PROJECTS =====
