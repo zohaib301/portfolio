@@ -119,7 +119,7 @@ const blogPosts = [
         excerpt: 'Expert strategies to create a standout Upwork profile, write winning proposals, and become a top-rated freelancer commanding premium rates.',
         date: 'November 28, 2025',
         image: 'projects/upwork1.jpeg',
-        category: 'Freelancing',
+        category: 'Ecommerce',
         content: `
             <h2>How to Build a Professional Upwork Profile and Win High-Paying Projects</h2>
             
@@ -165,7 +165,7 @@ const blogPosts = [
         excerpt: 'Advanced techniques for beating competition on Upwork, optimizing your bids, and building a steady stream of high-value client projects.',
         date: 'November 20, 2025',
         image: 'projects/upwork2.jpeg',
-        category: 'Freelancing',
+        category: 'Ecommerce',
         content: `
             <h2>Upwork Bidding Strategies: Win More Projects and Increase Your Income</h2>
             
